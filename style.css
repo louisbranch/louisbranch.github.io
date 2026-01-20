@@ -1,0 +1,63 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #0f0f0f;
+    color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    color: #aaa;
+}
+
+p.hero {
+  font-size: 1.5rem;
+}
+
+p code {
+    font-size: 1.2rem;
+    background: #333;
+    color: #eaeaea;
+    padding: 1rem;
+    border-color: #555;
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+a:hover {
+    border-bottom-color: #eaeaea;
+}
+
+.cursor {
+    animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
